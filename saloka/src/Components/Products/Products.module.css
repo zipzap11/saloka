@@ -1,0 +1,12 @@
+.scroll {
+  display: grid;
+  row-gap: 1rem;
+  column-gap: 1rem;
+  margin: 0 auto;
+  max-height: 100vh;
+  overflow: auto;
+}
+
+.loader {
+  margin: 1rem 0;
+}

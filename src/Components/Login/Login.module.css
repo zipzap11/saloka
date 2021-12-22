@@ -1,0 +1,19 @@
+.link {
+  margin-left: auto;
+  color: #979797;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.link:hover {
+  color: black;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 25px;
+  }
+  .listText span {
+    font-size: 14px !important;
+  }
+}

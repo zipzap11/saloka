@@ -1,0 +1,31 @@
+.contain {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.contain .left {
+  margin-right: 0.5rem;
+}
+.contain .right h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.right .info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+.right .point {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.info .time {
+  margin-left: 0.6rem;
+  color: #6c6c6c;
+}
+.right .star {
+  transform: scale(0.8);
+}
+.right .comment {
+  color: #6c6c6c;
+}

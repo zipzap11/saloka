@@ -1,0 +1,50 @@
+.contain {
+  margin: 1.5rem 0;
+}
+.contain h2 {
+  margin-left: 1.3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 18px;
+}
+.contain .recommendationList {
+  display: grid;
+  row-gap: 15px;
+  column-gap: 30px;
+  grid-template-columns: repeat(6, 1fr);
+}
+.paper {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader {
+  transform: scale(2);
+}
+.link {
+  text-decoration: none;
+  color: black;
+  transition: 1s;
+}
+.card:hover {
+  filter: grayscale(30%) drop-shadow(2px 2px 4px gray);
+}
+@media (max-width: 820px) {
+  .contain .recommendationList {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .contain .recommendationList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 460px) {
+  .contain h2 {
+    font-size: 14px;
+  }
+  .contain .recommendationList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

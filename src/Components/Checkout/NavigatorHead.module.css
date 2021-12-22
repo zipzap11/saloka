@@ -1,0 +1,15 @@
+.contain {
+  margin-bottom: 2rem;
+}
+.contain ul {
+  display: flex;
+}
+.navigator {
+  color: #56b280;
+  list-style-type: none;
+  margin-right: 0.5rem;
+  font-weight: 600;
+}
+.navigator.active {
+  color: black;
+}

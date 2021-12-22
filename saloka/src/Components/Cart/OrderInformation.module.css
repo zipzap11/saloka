@@ -1,0 +1,11 @@
+.contain {
+  margin-top: 2rem;
+}
+
+.contain h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #43a047;
+  border-bottom: 1.2px solid #43a047;
+  padding-bottom: 1rem;
+}

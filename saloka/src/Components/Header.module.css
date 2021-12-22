@@ -1,0 +1,142 @@
+.header {
+  z-index: 999;
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.2rem;
+  padding-bottom: 0.4rem;
+  height: 60px;
+  position: fixed;
+  box-shadow: 0px 110px 229px rgba(0, 0, 0, 0.00334971),
+    0px 45.9554px 95.6707px rgba(0, 0, 0, 0.00756086),
+    0px 24.5699px 51.1501px rgba(0, 0, 0, 0.0129084),
+    0px 13.7737px 28.6744px rgba(0, 0, 0, 0.0199256),
+    0px 7.31511px 15.2287px rgba(0, 0, 0, 0.029928),
+    0px 3.04398px 6.33702px rgba(0, 0, 0, 0.05);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin-right: 4.5rem;
+}
+.nav ul {
+  list-style: none;
+  margin-top: 0.6rem;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #43a047;
+  font-family: Inter;
+}
+
+.search-bar {
+  border: 1px solid #b4b4bb;
+  padding: 6px 10px;
+  border-radius: 31px;
+  display: flex;
+  align-items: center;
+  margin-top: 0.6rem;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  margin-right: 7px;
+  padding: 0.2rem;
+  color: #979797;
+  background: transparent;
+}
+
+.search-bar input::placeholder {
+  color: #979797;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 50px;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: #43a047;
+  padding-top: 0.2rem;
+}
+
+.header-right .cart-icon {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon svg {
+  margin-right: 6px;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.cart-icon svg:hover {
+  color: yellowgreen;
+}
+.link {
+  transition: 0.5s;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.searchIcon {
+  cursor: pointer;
+  transition: 0.4s;
+  color: #43a047;
+}
+.searchIcon:hover {
+  color: yellowgreen;
+}
+
+.profileIcon {
+  transform: scale(1.5);
+}
+
+.profileWrapper {
+  position: relative;
+  border-radius: 5px;
+  transition: 0.4s;
+  padding: 0.5rem;
+  padding-bottom: 0.3rem;
+  background-color: #d3c5c588;
+  transition: 0.4s;
+}
+.profileWrapper:hover {
+  background-color: #a5b3b0;
+}
+
+.dropDown {
+  background-color: white;
+  transition: 0.3s;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateY(100%);
+}
+
+.dropdown a.dropdownMenu,
+.dropdown button.dropdownMenu {
+  color: #43a047;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: rgba(240, 255, 240, 0.877);
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+}
+
+.dropdownMenu:hover {
+  background-color: rgba(179, 236, 179, 0.932);
+}

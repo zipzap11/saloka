@@ -1,0 +1,19 @@
+.btn {
+  background-color: #43a047;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 6px;
+  height: 35px;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+  border: none;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background-color: #308134;
+}

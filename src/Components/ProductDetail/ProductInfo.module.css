@@ -1,0 +1,27 @@
+.info {
+  padding: 0.5rem;
+}
+
+.info h3 {
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+}
+.desc h4,
+.spec h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+.desc,
+.spec {
+  margin-bottom: 0.5rem;
+}
+
+.desc p,
+.spec p {
+  color: #6c6c6c;
+}
+
+.spec p {
+  margin-bottom: 0.2rem;
+}

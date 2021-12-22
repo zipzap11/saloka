@@ -1,0 +1,88 @@
+.contain {
+  display: flex;
+  column-gap: 1rem;
+  padding: 0.5rem;
+}
+.left {
+  max-width: 30%;
+  border-right: 1px solid black;
+  padding-right: 1rem;
+}
+
+.contain .right h2 {
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 0.7rem;
+}
+
+.contain .price {
+  font-size: 26px;
+  font-weight: 600;
+  color: #56b280;
+  margin-bottom: 2.5rem;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+.quantity h5 {
+  font-size: 26px;
+  font-weight: 500;
+  min-width: 25%;
+  margin-right: 1rem;
+}
+.quantity .actions {
+  display: flex;
+  flex-grow: 1;
+  width: min-content;
+}
+.quantity .actions button,
+.quantity .actions .count {
+  color: #a7a7a7;
+  margin: 0 0.2rem;
+  width: 40px;
+  height: 30px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #a7a7a7;
+  background-color: white;
+}
+.quantity .actions button {
+  height: 32px;
+}
+
+.shipping {
+  display: flex;
+  margin: 1.5rem 0;
+}
+.shipping h5 {
+  font-size: 26px;
+  font-weight: 500;
+  min-width: 25%;
+}
+.shipping .info p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.2rem;
+}
+.shipping .info p svg {
+  margin-right: 0.5rem;
+}
+.itemActions {
+  margin-top: 2rem;
+  display: flex;
+}
+.itemActions button {
+  margin-right: 1rem;
+}
+.cartIcon {
+  transform: scale(1);
+  color: white;
+  margin-right: 0.2rem;
+}
+.btn {
+  padding: 0.2rem 0.3rem;
+}

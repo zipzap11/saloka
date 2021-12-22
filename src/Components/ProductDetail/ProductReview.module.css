@@ -1,0 +1,53 @@
+.contain {
+  padding: 1rem;
+}
+.contain .top {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.contain .top ul {
+  display: flex;
+  align-items: center;
+}
+.top .point {
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  min-width: 7%;
+  margin-right: 0.2rem;
+}
+.contain .top ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  border: 1px solid #6c6c6c;
+  padding: 0.2rem 0.4rem;
+  border-radius: 8px;
+  margin-right: 0.1rem;
+  transition: 0.4s;
+}
+
+.filterItem:hover {
+  background-color: lightgrey;
+}
+
+@media (max-width: 520px) {
+  .contain .top {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .contain .top .point,
+  .contain .top ul li {
+    font-size: 12px;
+    padding: 0.2rem 4px;
+  }
+  .contain .top li:first-child {
+    padding: 0.3rem;
+  }
+  .top svg {
+    transform: scale(0.7);
+  }
+}

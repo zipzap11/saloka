@@ -1,0 +1,215 @@
+.contain {
+  display: flex;
+  column-gap: 1rem;
+  padding: 0.5rem;
+}
+.left {
+  max-width: 30%;
+  border-right: 1px solid black;
+  padding-right: 1rem;
+}
+
+.contain .right h2 {
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 0.7rem;
+}
+
+.contain .price {
+  font-size: 26px;
+  font-weight: 600;
+  color: #56b280;
+  margin-bottom: 2.5rem;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+.quantity h5 {
+  font-size: 26px;
+  font-weight: 500;
+  min-width: 25%;
+  margin-right: 1rem;
+}
+.quantity .actions {
+  display: flex;
+  flex-grow: 1;
+  width: min-content;
+}
+.quantity .actions button,
+.quantity .actions .count {
+  color: #a7a7a7;
+  margin: 0 0.2rem;
+  width: 40px;
+  height: 30px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #a7a7a7;
+  background-color: white;
+}
+.quantity .actions button {
+  height: 32px;
+}
+
+.shipping {
+  display: flex;
+  margin: 1.5rem 0;
+}
+.shipping h5 {
+  font-size: 26px;
+  font-weight: 500;
+  min-width: 25%;
+}
+.shipping .info p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.2rem;
+}
+.shipping .info p svg {
+  margin-right: 0.5rem;
+}
+.itemActions {
+  margin-top: 2rem;
+  display: flex;
+}
+.itemActions button {
+  margin-right: 1rem;
+}
+.cartIcon {
+  transform: scale(1);
+  color: white;
+  margin-right: 0.2rem;
+}
+.btn {
+  padding: 0.2rem 0.3rem;
+}
+
+@media (max-width: 800px) {
+  .contain .right h2 {
+    font-size: 25px;
+  }
+  .contain .right .price {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .contain .right .shipping h5,
+  .contain .right .quantity h5 {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .contain .right .shipping p,
+  .contain .right .quantity p,
+  .contain .right .quantity button {
+    font-size: 14px;
+  }
+  .right .quantity button {
+    height: 24px;
+    width: 30px;
+  }
+  .right .quantity .count {
+    height: 24px;
+    width: 30px;
+  }
+  .itemActions button {
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+@media (max-width: 540px) {
+  .contain .right h2 {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+  }
+  .contain .right .price {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+  }
+  .contain .right .shipping h5,
+  .contain .right .quantity h5 {
+    font-size: 14px;
+    margin-right: 7px;
+  }
+  .contain .right .shipping p,
+  .contain .right .quantity p,
+  .contain .right .quantity button {
+    font-size: 12px;
+  }
+  .right .quantity button {
+    height: 26px;
+    width: 30px;
+  }
+  .right .quantity .count {
+    height: 24px;
+    width: 30px;
+  }
+  .itemActions button {
+    font-size: 9px;
+    padding: 1rem;
+    height: 10px;
+  }
+  .itemActions button svg {
+    transform: scale(0.8);
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .contain {
+    flex-direction: column;
+  }
+  .contain .left {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    border: none;
+    padding: 0rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .contain .right h2 {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+  }
+  .contain .right .price {
+    font-size: 16px;
+    margin-bottom: 0rem;
+  }
+  .contain .right .shipping,
+  .contain .right .quantity {
+    margin: 0.5rem 0;
+  }
+  .contain .right .shipping h5,
+  .contain .right .quantity h5 {
+    font-size: 14px;
+    margin-right: 7px;
+    margin-top: 0;
+  }
+  .contain .right .shipping p,
+  .contain .right .quantity p,
+  .contain .right .quantity button {
+    font-size: 12px;
+  }
+  .right .quantity button {
+    height: 26px;
+    width: 30px;
+  }
+  .right .quantity .count {
+    height: 24px;
+    width: 30px;
+  }
+  .itemActions button {
+    font-size: 11px;
+    padding: 1rem;
+    height: 10px;
+  }
+  .itemActions button svg {
+    transform: scale(0.8);
+    margin: 0;
+    padding: 0;
+  }
+}

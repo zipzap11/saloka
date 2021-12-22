@@ -1,0 +1,12 @@
+.btnWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.btnWrapper button {
+  background-color: whitesmoke;
+  height: 40px;
+  min-width: 100px;
+  text-transform: capitalize;
+  margin-right: 4px;
+}

@@ -1,0 +1,63 @@
+.dropDown {
+  transition: 0.3s;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateY(100%);
+  animation: fadein 0.2s alternate;
+  border-top: 1px solid black;
+}
+
+.dropDownMenu {
+  border-radius: 3px;
+  border: 1px solid #43a047;
+  outline: none;
+  color: #43a047;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+}
+
+.dropDownMenu:hover {
+  background-color: rgb(227, 245, 227);
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 25%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  75% {
+    opacity: 75%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@media (max-width: 670px) {
+  .dropDown {
+    left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .dropDown {
+    /* position: fixed; */
+    /* z-index: 99999; */
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  .dropDownMenu {
+    border: none;
+    border-bottom: 0.5px solid #43a047;
+    letter-spacing: 1px;
+  }
+}

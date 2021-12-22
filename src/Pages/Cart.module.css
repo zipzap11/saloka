@@ -1,0 +1,18 @@
+.contain {
+  display: flex;
+}
+.wrap h2 {
+  margin-bottom: 1rem;
+  color: #43a047;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .contain {
+    flex-direction: column;
+  }
+  .wrap h2 {
+    font-size: 24px;
+  }
+}
